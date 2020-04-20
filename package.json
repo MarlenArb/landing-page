@@ -1,0 +1,23 @@
+{
+  "name": "landing_page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel serve $npm_package_main --port 8080 -d dist",
+    "prebuild": "rm -rf dist build",
+    "build": "parcel build $npm_package_main -d build --public-url /$npm_package_name/",
+    "postbuild": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarlenArb/landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarlenArb/landing-page/issues"
+  },
+  "homepage": "https://github.com/MarlenArb/landing-page#readme"
+}
