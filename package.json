@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/MarlenArb/landing-page#readme",
   "dependencies": {
-    "parcel": "^1.12.4"
+    "parcel": "^2.8.2"
   }
 }
